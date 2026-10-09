@@ -33,6 +33,8 @@ Oitavo passo: (Preparar a carta)
 
 git commit -m "Subindo back end e front end do facisa flix"
 
+git commit -m "Título -m "Descrição" (Título do commit vem primeiro, depois a descrição)
+
 Nono passo: (Enviar a carta)
 - Enviar o que foi comitado para o github
 
@@ -41,6 +43,7 @@ git push (usar esse primeiro)
 git push origin main (Usar esses se algo de errado se tiver no mac iphone)
 git push origin master
 
+=======================================================================================
 
 
 
