@@ -1,0 +1,35 @@
+Primeiro passo:
+- Criar uma conta no github
+
+Segundo passo:
+- Instalar o git no computador/notebook (https://git-scm.com/install/)
+
+Terceiro passo:
+- Configurar as permissoes do git.
+
+git config --global user.name "Fulano de Tal"
+git config --global user.email fulanodetal@exemplo.pt
+
+Quarto passo:
+- Criar repositório no github, colocando nome do projeto, descrição e privacidade
+
+Quinta passo:
+- Clonagem do repositório com o seguinte comando
+
+git clone https://github.com/fellypeagripino/FacisaFlix.git
+
+Sexto passo:
+- Abrir um novo vscode ou intelij na pasta que acobou de aparecer após o comando de git clone
+
+Sétimo passo:
+- Adicionar arquivos que irão subir para o repositório dentro do github
+
+git add <nome-arquivo> ou . (Pode ser só o nome do arquivo ou um ponto)
+git add Passo-a-passo-git.txt  (Nome do arquivo só irá preparar pra enviar aquele arquivo)
+git add . (Quando utilizado o ponto, prepara todos os arquivos alterados/novos/removidos)
+
+Oitavo passo:
+- Anotar tudo que está subindo (conhecido como comitar)
+
+git commit -m "Subindo back end e front end do facisa flix"
+
